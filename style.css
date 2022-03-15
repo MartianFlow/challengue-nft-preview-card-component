@@ -31,22 +31,47 @@ main {
     border-radius: 12px;
 }
 
+.cards-container__img {
+    position: relative;
+}
+
 .cards-container__img img{
     width: 300px;
     height: 300px;
     border-radius: 12px;
 }
 
+.cards-container__img--hover {
+    position: absolute;
+    top: 0px;
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.cards-container__img--hover:hover {
+    background-color: rgb(0, 255, 255, 0.5);
+    background-image: url('./images/icon-view.svg');
+    background-position: center;
+    background-size: 52px;
+    background-repeat: no-repeat;
+}
+
+
 .cards-container__description {
     width: 300px;
     margin-top: 28px;
 }
 
-.cards-container__description h2 {
+.cards-container__description a {
     font-size: 2.2rem;
     font-weight: 600;
-
+    text-decoration: none;
     color: hsl(0, 0%, 100%);
+}
+
+.cards-container__description a:hover {
+    color: hsl(178, 100%, 50%);
 }
 
 .cards-container__description p {
@@ -131,4 +156,9 @@ main {
 .cards-container__attribution b {
     font-weight: 300;
     color: #fff;
+}
+
+.cards-container__attribution b:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }

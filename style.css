@@ -29,6 +29,7 @@ main {
 
     background-color: hsl(216, 50%, 16%);
     border-radius: 12px;
+    box-shadow: 1px 20px 30px 30px rgb(12,23,41);
 }
 
 .cards-container__img {
@@ -60,7 +61,7 @@ main {
 
 .cards-container__description {
     width: 300px;
-    margin-top: 28px;
+    margin-top: 30px;
 }
 
 .cards-container__description a {
@@ -75,7 +76,7 @@ main {
 }
 
 .cards-container__description p {
-    margin-top: 20px;
+    margin-top: 16px;
     font-size: 1.8rem;
     font-weight: 300;
     line-height: 2.8rem;
@@ -85,7 +86,7 @@ main {
 
 .cards-container__price {
     width: 300px;
-    margin-top: 28px;
+    margin-top: 24px;
     display: flex;
     justify-content: space-between;
 }
@@ -98,9 +99,9 @@ main {
 
 .cards-container__price p:nth-child(1) span {
     display: inline-block;
-    width: 20px;
-    height: 20px;
-    vertical-align: bottom;
+    width: 18px;
+    height: 18px;
+    vertical-align: -2px;
     background-image: url('./images/icon-ethereum.svg');
     background-position: center;
     background-size: contain;
@@ -115,9 +116,9 @@ main {
 
 .cards-container__price p:nth-child(2) span {
     display: inline-block;
-    width: 20px;
-    height: 20px;
-    vertical-align: bottom;
+    width: 18px;
+    height: 18px;
+    vertical-align: -2px;
     background-image: url('./images/icon-clock.svg');
     background-position: center;
     background-size: contain;
@@ -134,8 +135,8 @@ main {
 
 .cards-container__attribution span {
     display: inline-block;
-    width: 42px;
-    height: 42px;
+    width: 32px;
+    height: 32px;
     vertical-align:middle;
     background-image: url('./images/image-avatar.png');
     background-size: cover;
